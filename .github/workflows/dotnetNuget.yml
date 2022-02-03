@@ -22,8 +22,6 @@ jobs:
       run: dotnet restore Core/Bk.Forked.EventSourcing.NetCore.Core.sln
     - name: Build
       run: dotnet build --no-restore Core/Bk.Forked.EventSourcing.NetCore.Core.sln
-    - name: Test
-      run: dotnet test --no-build --verbosity normal Core/Bk.Forked.EventSourcing.NetCore.Core.sln
 
   publish-packages:
     needs: build
