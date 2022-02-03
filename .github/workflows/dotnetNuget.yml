@@ -40,4 +40,4 @@ jobs:
     - name: Pack & Push Bk.Forked.EventSourcing.NetCore.Core
       run: | 
         dotnet pack Core/Core.csproj --output nuget-packages --configuration Release -p:Version=1.0.0
-        dotnet nuget push nuget-packages/Bk.Forked.EventSourcing.NetCore.Core.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source github
+        dotnet nuget push nuget-packages/*Core*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source github
