@@ -8,6 +8,7 @@
         <Title>Bk.Forked.EventSourcing.NetCore.Core</Title>
         <Authors>Bk.Forked.EventSourcing.NetCore.Core</Authors>
         <Description>Bk.Forked.EventSourcing.NetCore.Core</Description>
+        <RepositoryUrl>https://github.com/bittner-krull/common-packages</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
