@@ -4,6 +4,10 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <PackageId>Bk.Forked.EventSourcing.NetCore.Core</PackageId>
+        <Title>Bk.Forked.EventSourcing.NetCore.Core</Title>
+        <Authors>Bk.Forked.EventSourcing.NetCore.Core</Authors>
+        <Description>Bk.Forked.EventSourcing.NetCore.Core</Description>
     </PropertyGroup>
 
     <ItemGroup>
