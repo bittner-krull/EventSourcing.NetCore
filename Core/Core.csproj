@@ -9,6 +9,8 @@
         <Authors>Bk.Forked.EventSourcing.NetCore.Core</Authors>
         <Description>Bk.Forked.EventSourcing.NetCore.Core</Description>
         <RepositoryUrl>https://github.com/bittner-krull/common-packages</RepositoryUrl>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
