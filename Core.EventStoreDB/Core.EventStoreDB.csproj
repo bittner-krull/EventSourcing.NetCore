@@ -4,6 +4,11 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <PackageId>Bk.Forked.EventSourcing.NetCore.EventStoreDb</PackageId>
+        <Title>Bk.Forked.EventSourcing.NetCore.EventStoreDb</Title>
+        <Authors>Bk.Forked.EventSourcing.NetCore.EventStoreDb</Authors>
+        <Description>Bk.Forked.EventSourcing.NetCore.EventStoreDb</Description>
+        <RepositoryUrl>https://github.com/bittner-krull/common-packages</RepositoryUrl>
     </PropertyGroup>
 
 
