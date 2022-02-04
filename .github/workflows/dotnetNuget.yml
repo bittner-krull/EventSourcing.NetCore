@@ -19,9 +19,9 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore Core/Bk.Forked.EventSourcing.NetCore.Core.sln
+      run: dotnet restore EventSourcing.NetCore.EventStoreDb.sln
     - name: Build
-      run: dotnet build --no-restore Core/Bk.Forked.EventSourcing.NetCore.Core.sln
+      run: dotnet build --no-restore EventSourcing.NetCore.EventStoreDb.sln
 
   publish-packages:
     needs: build
@@ -35,7 +35,7 @@ jobs:
           -u ${{ github.repository_owner }} \
           -p ${{ secrets.GITHUB_TOKEN }} \
           --store-password-in-clear-text
-    - name: Pack & Push Bk.Forked.EventSourcing.NetCore.Core
+    - name: Pack & Push Bk.Forked.EventSourcing.NetCore.EventStoreDB
       run: | 
-        dotnet pack Core/Core.csproj --output nuget-packages --configuration Release -p:Version=1.0.0
-        dotnet nuget push nuget-packages/*Core*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source github
+        dotnet pack Core.EventStoreDB.csproj --output nuget-packages --configuration Release -p:Version=1.0.0
+        dotnet nuget push nuget-packages/*EventStoreDB*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source github
