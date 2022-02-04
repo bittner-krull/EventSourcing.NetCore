@@ -37,5 +37,5 @@ jobs:
           --store-password-in-clear-text
     - name: Pack & Push Bk.Forked.EventSourcing.NetCore.EventStoreDB
       run: | 
-        dotnet pack Core/Core.EventStoreDB.csproj --output nuget-packages --configuration Release -p:Version=1.0.0
+        dotnet pack Core.EventStoreDB/Core.EventStoreDB.csproj --output nuget-packages --configuration Release -p:Version=1.0.0
         dotnet nuget push nuget-packages/*EventStoreDB*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source github
