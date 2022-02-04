@@ -8,7 +8,7 @@
         <Title>Bk.Forked.EventSourcing.NetCore.EventStoreDB</Title>
         <Authors>Bk.Forked.EventSourcing.NetCore.EventStoreDB</Authors>
         <Description>Bk.Forked.EventSourcing.NetCore.EventStoreDB</Description>
-        <RepositoryUrl>https://github.com/bittner-krull/common-packages</RepositoryUrl>
+        <RepositoryUrl>https://github.com/bittner-krull/EventSourcing.NetCore</RepositoryUrl>
     </PropertyGroup>
 
 
